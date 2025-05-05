@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransformAlgo", "TransformAlgo.csproj", "{5E19B064-90D5-4098-97E9-FCD39028A5BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E19B064-90D5-4098-97E9-FCD39028A5BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E19B064-90D5-4098-97E9-FCD39028A5BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E19B064-90D5-4098-97E9-FCD39028A5BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E19B064-90D5-4098-97E9-FCD39028A5BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
