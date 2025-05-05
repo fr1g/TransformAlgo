@@ -88,10 +88,11 @@ public static class Algorithm
             foreach (var chars in reversed)
             {
                 var precised = (int)Math.Ceiling(chars);
-                Console.WriteLine(precised);
+                // Console.WriteLine(precised);
                 prepare += (char)precised;
                 
-            } Console.WriteLine("END");
+            } 
+            // Console.WriteLine("END");
         }
 
         prepare = new string(prepare.Reverse().ToArray());
@@ -117,7 +118,7 @@ public static class Algorithm
             debugReveal += chars;
             if (current == 3)
             {
-                Console.WriteLine($"DR: {debugReveal} ");
+                // Console.WriteLine($"DR: {debugReveal} ");
                 debugReveal = "";
                 current = 0;
                 vertical.Add(buffer);
@@ -125,15 +126,15 @@ public static class Algorithm
             }
         }
 
-        foreach (var token in vertical)
-        {
-            Console.WriteLine(": ");
-            foreach (var item in token)
-            {
-                Console.Write($"{item} ");
-            }
-            Console.WriteLine("; ");
-        }
+        // foreach (var token in vertical)
+        // {
+        //     Console.WriteLine(": ");
+        //     foreach (var item in token)
+        //     {
+        //         Console.Write($"{item} ");
+        //     }
+        //     Console.WriteLine("; ");
+        // }
         // steps:
         // divide list of submodules into independent lists to parse as matrix (sub-vertical)
         // calculate vertical per sub-vertical
