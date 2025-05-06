@@ -87,7 +87,8 @@ public static class Algorithm
             var reversed = token;
             foreach (var chars in reversed)
             {
-                var precised = (int)Math.Ceiling(chars);
+                // var precised = (int)Math.Ceiling(chars);
+                var precised = (int)Math.Round(chars);
                 // Console.WriteLine(precised);
                 prepare += (char)precised;
                 
